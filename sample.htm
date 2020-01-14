@@ -1,0 +1,62 @@
+ <!Doctype html>
+<html>
+<head >
+<meta charset="utf-8">
+<title>ayd</title>
+<style>
+div{
+
+width:100px;
+height:100px;
+background:linear-gradient(to bottom right,red,yellow);
+}
+.a{
+width:100px;
+height:100px;
+background:radial-gradient(ellipse,blue,pink,red);
+
+}
+.b{
+width:100px;
+height:100px;
+background:blue;
+transition: width 2s,height 2s,tranform 4s;
+
+}
+
+.b:hover{
+width:300px;
+height:200px;
+}
+.tooltip{
+text-align:center;
+color:red;
+
+}
+
+.tooltip .tooltiptext{
+
+opacity:0;
+transition:opacity 2s;
+
+
+}
+.tooltip:hover .tooltiptext{
+visibility: hidden;
+background-color:blue;
+width:200px;
+visibility:visible;
+opacity:5;
+}
+
+</style>
+</head>
+<body>
+
+ <div></div></br></br>
+<div class="a"></div><br/><br/>
+<div class="b"></div><br/><br/>
+<p class="tooltip">welcome to our wesite 
+<span class="tooltiptext">sample techie park</span></p>
+</body>
+</html>
